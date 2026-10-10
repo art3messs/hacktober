@@ -1,0 +1,1 @@
+flowchart TD\nU[Prompt]-->F[React UI]-->A[FastAPI]-->M[Ollama JSON harness]-->V[Validated fixed template]-->S[Simulation adapter]\nS-->N[ngspice]-->W[Waveform JSON]\nS-->B[Analytical fallback]-->W\nW-->E[Explanation + warnings]-->F\nF-- sliders /simulate, no LLM -->S
